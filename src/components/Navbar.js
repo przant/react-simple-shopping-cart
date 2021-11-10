@@ -1,4 +1,5 @@
 import { Component } from "react";
+import Logo from "./Logo";
 
 const styles = {
     navbar: {
@@ -17,7 +18,7 @@ class Navbar extends Component {
     render() {
         return (
             <nav style={ styles.navbar }>
-                <p>logo</p>
+                <Logo />
                 <p>Carrito</p>
             </nav>
         )
