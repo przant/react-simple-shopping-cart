@@ -1,6 +1,6 @@
-import { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { Component } from 'react'
+import Products from './components/Products'
+import './App.css'
 
 class App extends Component {
   state = {
@@ -13,10 +13,15 @@ class App extends Component {
   render() {
     return (
       <div>
-        <p>Hello world!</p>
+        <Products
+          addToShoppingCart={ () => console.log('Do nothing') }
+          products={ this.state.products }
+        >
+
+        </Products>
       </div>
     )
   }
 }
 
-export default App;
+export default App
