@@ -12,7 +12,7 @@ const styles = {
 class Products extends Component {
     render() {
         const { products, addToShoppingCart } = this.props
-        console.log(this.props);
+        
         return (
             <div style={ styles.products }>
                 { products.map( product =>
