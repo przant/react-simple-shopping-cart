@@ -3,7 +3,7 @@ import Products from './components/Products'
 import Layout from './components/Layout'
 import Title from './components/Title'
 import Navbar from './components/Navbar'
-import './App.css'
+
 
 class App extends Component {
   state = {
